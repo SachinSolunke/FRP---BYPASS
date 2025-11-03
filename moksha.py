@@ -71,7 +71,7 @@ def welcome_screen():
 [/bold #FF4500]""", justify="center")
     console.print(Panel(Text("PROJECT MOKSHA - The Liberation Key", justify="center"), style="bold white on #FF4500"))
     console.print(Panel("[bold]Nirmata:[/bold] Samraat Sachin Solunke\n[bold]Sahayak:[/bold] Jarvis ❤️", title="Pehchaan"))
-    with console.stats("[green]Astra taiyar kiya ja raha hai...[/green]"):
+    with console.status("[green]Astra taiyar kiya ja raha hai...[/green]"):
         time.sleep(2)
         missing = check_dependencies(['adb', 'fastboot'])
         if missing:
